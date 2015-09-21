@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-ios-longpress-fix"
-        version="0.0.1">
+        version="1.0.0">
 
   <name>iOS LongPress Fix</name>
 
@@ -9,7 +9,7 @@
     Suppresses the silly magnifying glass when longpressing your app on iOS9
   </description>
 
-  <author>Eddy Verbruggen / Telerik</author>
+  <author>Eddy Verbruggen</author>
 
   <license>MIT</license>
 
