@@ -1,9 +1,10 @@
 # Cordova iOS LongPress Fix Plugin
-by [Eddy Verbruggen](http://twitter.com/eddyverbruggen) / [Telerik](http://www.telerik.com)
+by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
+
 
 ## Description
 
-Apple thought it'd be nice if it would show a magnifying glass when we longpress our webview on iOS9.
+Apple thought it'd be nice to show a magnifying glass when longpressing the webview on iOS9.
 
 Don't like it? This plugin removes it!
 
@@ -21,6 +22,7 @@ PhoneGap Build
 ```xml
 <gap:plugin id="cordova-plugin-ios-longpress-fix" source="npm" />
 ```
+
 
 ## Usage
 It just works, and will proudly shout that at the XCode console when it does.
