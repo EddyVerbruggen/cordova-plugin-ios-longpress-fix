@@ -12,16 +12,22 @@
     NSLog(@"No webview subviews found, not applying the longpress fix");
     return;
   }
-  UIView *webViewScrollView = views[0];
-  NSArray *webViewScrollViewSubViews = webViewScrollView.subviews;
-  UIView *browser = webViewScrollViewSubViews[0];
-  [browser addGestureRecognizer:self.lpgr];
+  for (int i=0; i<views.count; i++) {
+    UIView *webViewScrollView = views[i];
+    if ([webViewScrollView isKindOfClass:[UIScrollView class]]) {
+      NSArray *webViewScrollViewSubViews = webViewScrollView.subviews;
+      UIView *browser = webViewScrollViewSubViews[0];
+      [browser addGestureRecognizer:self.lpgr];
+      NSLog(@"Applied longpress fix");
+      break;
+    }
+  }
 }
 
 - (void)handleLongPressGestures:(UILongPressGestureRecognizer *)sender {
   if ([sender isEqual:self.lpgr]) {
     if (sender.state == UIGestureRecognizerStateBegan) {
-      NSLog(@"ignoring a longpress in order to suppress the magnifying glass (iOS9 quirk)");
+      NSLog(@"Ignoring a longpress in order to suppress the magnifying glass (iOS9 quirk)");
     }
   }
 }

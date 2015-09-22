@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ios-longpress-fix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Suppresses the silly magnifying glass when longpressing your app on iOS9",
   "cordova": {
     "id": "cordova-plugin-ios-longpress-fix",

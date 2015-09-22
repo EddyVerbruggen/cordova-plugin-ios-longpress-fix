@@ -29,5 +29,9 @@ It just works, and will proudly shout that at the XCode console when it does.
 
 
 ## Limitations
-Currently only works with UIWebView, not WKWebView.
-Open a ticket if you need that.
+Currently only works with UIWebView, not WKWebView, but you should be able to
+suppress the magnifying glass on WKWebView with a few lines of CSS.
+
+
+## Future
+I'm working with Cordova guys to get this in their distribution as standard.
