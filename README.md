@@ -1,5 +1,5 @@
 # Cordova iOS LongPress Fix Plugin
-by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
+by Eddy Verbruggen - [@eddyverbruggen](http://twitter.com/eddyverbruggen)
 
 
 ## Description
