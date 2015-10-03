@@ -20,7 +20,7 @@ $ cordova plugin add cordova-plugin-ios-longpress-fix
 
 PhoneGap Build
 ```xml
-<gap:plugin id="cordova-plugin-ios-longpress-fix" source="npm" />
+<gap:plugin name="cordova-plugin-ios-longpress-fix" source="npm" />
 ```
 
 
