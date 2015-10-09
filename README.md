@@ -27,6 +27,17 @@ PhoneGap Build
 ## Usage
 It just works, and will proudly shout that at the XCode console when it does.
 
+### 3D Touch
+You can also suppress 3D Touch longpresses (those will also popup the magnifying glass),
+but since it requires a bit of caution I've made it optional.
+
+The caveat is `onclick` taps must be completed in under 8ms which is too short for most users.
+But if you're using ontouchend there's no problem.
+
+If you want to enable this feature, add this to `config.xml`:
+```xml
+  <preference name="Suppress3DTouch" value="true" />
+```
 
 ## Limitations
 Currently only works with UIWebView, not WKWebView, but you should be able to
