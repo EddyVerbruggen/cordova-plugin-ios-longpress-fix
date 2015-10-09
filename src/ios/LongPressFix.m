@@ -34,7 +34,7 @@
 - (void)handleLongPressGestures:(UILongPressGestureRecognizer *)sender {
   if ([sender isEqual:self.lpgr]) {
     if (sender.state == UIGestureRecognizerStateBegan) {
-       // since we may touches of 0.08ms we no longer log these (would flood the log)
+       // since we may touches of 0.08s we no longer log these (would flood the log)
        //NSLog(@"Ignoring a longpress in order to suppress the magnifying glass (iOS9 quirk)");
     }
   }
