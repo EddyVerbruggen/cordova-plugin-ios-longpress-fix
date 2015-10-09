@@ -31,8 +31,8 @@ It just works, and will proudly shout that at the XCode console when it does.
 You can also suppress 3D Touch longpresses (those will also popup the magnifying glass),
 but since it requires a bit of caution I've made it optional.
 
-The caveat is `onclick` taps must be completed in under 8ms which is too short for most users.
-But if you're using ontouchend there's no problem.
+The caveat is `onclick` taps must be completed in under 80ms (otherwise they are hijacked by this plugin) which is too short for most users.
+But if you're using `ontouchend` there's no problem.
 
 If you want to enable this feature, add this to `config.xml`:
 ```xml
