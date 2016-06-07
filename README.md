@@ -46,3 +46,5 @@ suppress the magnifying glass on WKWebView with a few lines of CSS.
 
 ## Future
 I'm working with Cordova guys to get this in their distribution as standard.
+
+UPDATE: It's [in there](https://github.com/apache/cordova-ios/blob/master/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m), so you might as well use that :)
